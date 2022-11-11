@@ -35,3 +35,6 @@ target_link_libraries(ICRA19_GNSS libRSF)
 
 add_executable(IV19_GNSS IV19_GNSS.cpp)
 target_link_libraries(IV19_GNSS libRSF)
+
+add_executable(RUN_IV19_GNSS Run_IV19_GNSS.cpp)
+target_link_libraries(RUN_IV19_GNSS libRSF)
